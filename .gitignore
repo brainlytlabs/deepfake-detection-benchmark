@@ -1,0 +1,77 @@
+# ─── Secrets ─────────────────────────────────
+# NEVER commit these
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+credentials.json
+
+# ─── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─── Virtual environments ────────────────────
+venv/
+env/
+ENV/
+.venv/
+
+# ─── Jupyter ─────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Streamlit ───────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Data & models ───────────────────────────
+# Keep sample data, exclude real logs and large files
+data/raw/
+data/processed/
+*.log
+!data/samples/*.log
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+models/checkpoints/
+
+# ─── Outputs ─────────────────────────────────
+outputs/
+reports/generated/
+*.tmp
+
+# ─── Testing & coverage ──────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── IDE ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── ML artifacts ────────────────────────────
+checkpoints/
+results/
+data/raw/
+data/processed/
+*.pt
+*.pth
+wandb/
+lightning_logs/
