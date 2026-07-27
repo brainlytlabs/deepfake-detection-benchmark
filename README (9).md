@@ -168,7 +168,6 @@ MIT — see [LICENSE](LICENSE).
 **Humaira Muqades** — AI Engineer, PhD scholar researching DeepFake detection
 Built at **Brainlyt Labs**.
 
-[LinkedIn](https://www.linkedin.com/in/humaira-muqades-rana/) · [GitHub](https://github.com/Humaira-Muqades) · humaramuqdes@gmail.com
 
 ---
 
